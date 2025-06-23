@@ -13,6 +13,6 @@ export function quarterOf(month: number): number {
 
 console.log(quarterOf(9))
 
-// best
+// best solution
 
 // export const quarterOf = (month: number): number => Math.ceil(month / 3);
