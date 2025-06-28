@@ -76,3 +76,19 @@ binaryFingers('1000')
 //         }, [] as string[])
 //         .reverse()
 // }
+
+// other
+
+// export function binaryFingers(binString: string): string[] {
+//     const fingers = ['Pinkie', 'Ring', 'Middle', 'Index', 'Thumb']
+//     const usedFingers = []
+//
+//     binString = binString.padStart(5, '0')
+//
+//
+//     for (const [index, char] of [...binString].entries()) {
+//         if (char === '1') usedFingers.push(fingers[index])
+//     }
+//
+//     return usedFingers;
+// }
