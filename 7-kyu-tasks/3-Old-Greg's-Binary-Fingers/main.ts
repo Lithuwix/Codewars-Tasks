@@ -58,3 +58,21 @@ export function binaryFingers(binString: string): string[] {
 // }
 
 binaryFingers('1000')
+
+// other
+
+// export function binaryFingers(binString: string): string[] {
+//
+//     const sample = ["Thumb", "Index", "Middle", "Ring", "Pinkie"]
+//
+//     return binString.trim() === "" ? [] : binString
+//         .split("")
+//         .reverse()
+//         .reduce((acc, curr, i) => {
+//             if (curr === "1") {
+//                 acc.push(sample[i])
+//             }
+//             return acc
+//         }, [] as string[])
+//         .reverse()
+// }
